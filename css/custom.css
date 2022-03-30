@@ -1,0 +1,99 @@
+.main-wrapper {
+    background-color: #F1F1F1;
+    width: 100%;
+    height: 100vh;
+}
+
+.main-grid {
+    background: linear-gradient(180deg, rgba(231, 88, 165, 0.95) 0%, rgba(255, 191, 225, 0.77) 100%);
+    border-radius: 25px;
+    width: 340px;
+}
+
+.display {
+    padding: 20px;
+    height: 170px;
+}
+
+.btn {
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    border-radius: 7px;
+}
+
+.number:hover {
+    background-color: #F1F1F1;
+}
+
+.button-grid {
+    background-color: #fff;
+    padding: 20px;
+    width: 340px;
+    border-radius: 16px 16px 25px 25px;
+}
+
+.number-pad {
+    width: 220px;
+}
+
+.number-pad>div:nth-child(1),
+.right-btns {
+    background-color: #ECECEC78;
+    border-radius: 10px;
+}
+
+.number-pad>div {
+    justify-content: space-between;
+}
+
+.long-btn {
+    height: 135px;
+}
+
+.grd-btn,
+.long-btn {
+    color: #fff;
+    background: linear-gradient(180deg, #E866AC 0%, #FC7BC1 100%);
+}
+
+.delete-btn {
+    color: #EE88BF;
+}
+
+.sym-btn:hover {
+    color: #EE88BF;
+}
+
+.main-display {
+    width: 100%;
+}
+
+.main-display>input {
+    font-weight: 500;
+    width: 100%;
+    color: white;
+    text-align: right;
+    font-size: 45px;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.second-display {
+    font-size: 20px;
+}
+
+.copyright {
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: black;
+}
+
+.copyright a:hover {
+    color: blue;
+}
